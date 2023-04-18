@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="decryption.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="unrealengine.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="valorant.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Alignments.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Decryptor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Yeni klasör\MyDll\HOKI.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="discord_rpc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{0ff10ebb-01d8-4b4e-9e0a-b32145221c23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="discord-rpc.lib">
+      <Filter>Headers</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
